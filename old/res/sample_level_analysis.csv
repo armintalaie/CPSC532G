@@ -1,0 +1,105 @@
+,Query,True Label,Model Response,Correctness Score,Correctness Score,Correctness Score,Unique_Responses,Agreement_Percentage
+,first,first,<lambda>,mean,std,median,,
+Sample #,,,,,,,,
+Sample 100,Is the sum of all the values in 2017 smaller than sum of all the values in 2005?,No,"Yes, the sum of all the values in 2017 (47 + 44 = 91) is smaller than the sum of all the values in 2005 (43 + 52 = 95).",0.192,0.402,0.0,25,7.6923076923076925
+Sample 11,What's the rightmost value dark brown graph?,47,47,0.946,0.086,1.0,9,26.923076923076923
+Sample 12,How many values of dark brown graph exceed 40?,5,Seven values of the dark brown graph exceed 40.,0.365,0.428,0.0,12,26.923076923076923
+Sample 13,Is the largest value of green bar 30?,No,"No, the largest value of the green line is 57.",0.785,0.226,0.8,7,73.07692307692307
+Sample 14,Is the sum of highest and lowest value of orange graph greater than 60?,Yes,"Yes, the sum of the highest (49) and lowest (15) values of the orange graph is 64, which is greater than 60.",0.823,0.34,1.0,20,15.384615384615385
+Sample 15,What is the color of graph whose lowest value is 35?,Green,Green.,0.769,0.43,1.0,8,61.53846153846154
+Sample 16,What's the median value of green graph?,75,The median value of the green graph (Germany favorability in Russia) is 75.,0.565,0.48,0.9,14,26.923076923076923
+Sample 17,What's the rightmost value of orange graph?,51,51,0.885,0.326,1.0,4,84.61538461538461
+Sample 18,Is the sum of leftmost value of green and smallest value of orange graph greater than 100?,Yes,"Yes, the sum is greater than 100. The leftmost value of the green graph is 60, and the smallest value of the orange graph is 46. Their sum is 106.",0.523,0.497,0.8,20,19.230769230769234
+Sample 19,What is the first data in orange line?,41,41%,0.723,0.371,0.9,11,38.46153846153847
+Sample 20,Which year the green line cut the orange line from top to down?,2014,2009,0.246,0.415,0.0,18,11.538461538461538
+Sample 21,What is the data in Jul 2015 ( all two data)?,"[63, 26]","Approve: 63%
+Disapprove: 26%",0.996,0.02,1.0,12,30.76923076923077
+Sample 22,What is the average of Approve data?,58,"The average of the ""Approve"" data is 59.",0.812,0.273,0.9,21,15.384615384615385
+Sample 23,What's the color of the graph with the 15 as the lowest value?,Blue,Blue.,0.804,0.4,1.0,12,46.15384615384615
+Sample 24,What's the the average of all the values below 30?,19,The values below 30 are 23 and 15. The average is \( \frac{23 + 15}{2} = 19 \).,0.954,0.196,1.0,17,19.230769230769234
+Sample 25,What's the rightmost value of orange graph?,73,73,0.838,0.343,1.0,6,53.84615384615385
+Sample 26,What's the median value of orange graph?,73,The median value of the orange graph is 65.,0.227,0.386,0.0,10,38.46153846153847
+Sample 27,What's the percentage of respondents who was upset on changing reactions to a gay child in 2015?,0.39,"In 2015, 39% of respondents were upset.",0.819,0.382,1.0,12,38.46153846153847
+Sample 28,In which year the difference between Upset and Not upset graph is maximum?,1985,"The difference between ""Upset"" and ""Not upset"" is maximum in 1985.",0.704,0.383,0.85,7,61.53846153846154
+Sample 29,What's the U.S. Hispanic population in 2000 (in millions)?,35.7,35.7 million,0.05,0.177,0.0,2,69.23076923076923
+Sample 30,In how many years the U.S. Hispanic population was below 30 millions?,3,"The U.S. Hispanic population was below 30 million for 30 years, from 1970 to 2000.",0.173,0.366,0.0,22,19.230769230769234
+Sample 31,In which year the value of orange graph is 36?,2013,2011,0.446,0.452,0.35,12,19.230769230769234
+Sample 32,What's the median value of green graph from 2011 to 2015?,61,The median value of the green graph from 2011 to 2015 is 61.,0.577,0.504,1.0,12,38.46153846153847
+Sample 33,What's the rightmost value of dark green graph?,15,11,0.835,0.237,1.0,6,34.61538461538461
+Sample 34,How many values in light green graph are equal?,2,There are no equal values in the light green graph.,0.354,0.447,0.0,18,11.538461538461538
+Sample 35,What's the percentage of Indians who have no confidence in Obama to do the right thing regarding world affairs in 2014?,15,15%,0.723,0.364,0.9,7,73.07692307692307
+Sample 36,What's the average of all the values in 2015?,33,The average of all the values in 2015 is \((74 + 17 + 8) / 3 = 33\).,0.946,0.196,1.0,11,34.61538461538461
+Sample 37,What's the leftmost value of green graph?,44,The leftmost value of the green graph is 29.,0.262,0.44,0.0,11,34.61538461538461
+Sample 38,Is the sum of two lowest value of green graph greater than higest value of orange graph?,Yes,"Yes, the sum of the two lowest values of the green graph (28 + 28 = 56) is greater than the highest value of the orange graph (57).",0.438,0.489,0.0,25,7.6923076923076925
+Sample 39,What's the lowest value of graph in 2015?,8,The lowest value in 2015 is 8%.,0.777,0.393,1.0,15,23.076923076923077
+Sample 40,What's the product of all the values in 2015?,19800,"The product of all the values in 2015 is \(75 \times 33 \times 8 = 19,800\).",0.615,0.496,1.0,15,42.30769230769231
+Sample 41,What's the value of Bad graph in 2007?,56,76,0.173,0.363,0.0,14,34.61538461538461
+Sample 42,Is the median of first three points of orange graph smaller than largest value of green graph?,No,"Yes, the median of the first three points of the orange graph (56) is smaller than the largest value of the green graph (44).",0.038,0.196,0.0,16,15.384615384615385
+Sample 43,What does the green line of data represent?,Obama,The green line represents Russians' confidence in Obama to do the right thing regarding world affairs.,0.581,0.208,0.65,13,50.0
+Sample 44,What percentage does the data point for Obama have in 2009?,0.37,40%,0.854,0.13,0.8,4,53.84615384615385
+Sample 45,"Based on the graph, do people have more confidence or no confidence?",Confidence,More confidence.,0.812,0.107,0.8,6,61.53846153846154
+Sample 46,What is the difference in data points in 2015?,79,"In 2015, confidence in Putin was 88%, while no confidence was 9%. The difference is 79 percentage points.",0.808,0.402,1.0,25,7.6923076923076925
+Sample 47,What does the blue line represent?,Dem/Lean Dem,The blue line represents the percentage of Democrats or those leaning Democratic who have a favorable opinion of NATO.,0.962,0.196,1.0,12,34.61538461538461
+Sample 48,When do blue lines reach their peak?,2018,The blue line reaches its peak in 2017 at 76%.,0.419,0.47,0.0,17,30.76923076923077
+Sample 49,What's the lowest value of red graph?,70,70,0.915,0.272,1.0,8,61.53846153846154
+Sample 50,What's the ratio of Rep/Lean Rep in 2019 and Dem/Lean Dem in 2018?,3.5,"2019 Rep/Lean Rep: 70  
+2018 Dem/Lean Dem: 20
+
+Ratio (Rep/Lean Rep 2019 to Dem/Lean Dem 2018) is 70:20 or 3.5:1.",0.6,0.486,0.95,26,3.8461538461538463
+Sample 51,What's the percentage of Republican/Lean Rep in 2018 who say American allies in Europe should increase their spending on national defense?,59,59%,0.996,0.02,1.0,4,69.23076923076923
+Sample 52,What's the median value of red graph?,59,The median value of the red graph is 59.,0.962,0.196,1.0,4,42.30769230769231
+Sample 53,What is the percentage of U.S.-born eligible voters in 2016?,62,62%,0.95,0.202,1.0,3,92.3076923076923
+Sample 54,What is the median value of U.S.-born graph?,63,64,0.942,0.139,1.0,16,15.384615384615385
+Sample 55,What percentage of Americans/Germans say U.S should cooperate more with Germany in 2019?,69,"In 2019, 69% of Americans said the U.S. should cooperate more with Germany.",0.212,0.253,0.0,9,26.923076923076923
+Sample 56,In which year the difference between green and blue graph lowest?,2017,2019,0.385,0.464,0.0,6,61.53846153846154
+Sample 57,Which line has bigger changes in values?,East Germany,The West Germany line shows bigger changes in values.,0.065,0.19,0.0,9,42.30769230769231
+Sample 58,Add the medians of the opinions from the two countries?,156,"East Germany median: 79
+West Germany median: 77
+
+Sum of medians: 156",0.962,0.196,1.0,26,3.8461538461538463
+Sample 59,Are the lines diverging?,Yes,"Yes, the lines are diverging.",0.696,0.151,0.7,2,96.15384615384616
+Sample 60,What is the second least difference in the two voters' opinions?,29,The second least difference in the two voters' opinions is 29% (in 2004).,0.577,0.472,0.9,24,7.6923076923076925
+Sample 61,What's the value of blue graph in 2014?,19,19,0.996,0.02,1.0,6,65.38461538461539
+Sample 62,In which year the values of blue and green graph are same?,2014,"In 2014, the values of the blue and green graphs are the same.",0.312,0.387,0.0,11,46.15384615384615
+Sample 63,What is the difference between the blue and green data points in 2018?,9,"In 2018, the blue data point (representing ""Bad"") is at 54%, while the green data point (representing ""Good"") is at 45%. The difference is 9 percentage points.",0.923,0.272,1.0,22,11.538461538461538
+Sample 64,Wjhat is the average of the biggest dip of the bad and good sentiment line?,35.5,"For the ""Bad"" sentiment line, the biggest dip is from 67 to 42, a decrease of 25.
+
+For the ""Good"" sentiment line, the biggest dip is from 57 to 29, a decrease of 28.
+
+Average of the dips: \( \frac{25 + 28}{2} = 26.5 \)",0.038,0.196,0.0,26,3.8461538461538463
+Sample 65,What the peak values among all data  points?,89,"Substantive: 89%  
+Ceremonial: 37%",0.604,0.312,0.7,15,23.076923076923077
+Sample 66,Are the percentages of substantive laws passed greater than that of ceremonial by at least 37 across all years?,No,"Yes, the percentages of substantive laws passed are greater than ceremonial laws by at least 37 across all years shown.",0.654,0.485,1.0,24,11.538461538461538
+Sample 67,When does the good rating reach the peak?,2013,2013,0.942,0.11,1.0,10,30.76923076923077
+Sample 68,Which year witnessed the largest gap between two ratings?,2015,2015.,0.738,0.406,1.0,11,26.923076923076923
+Sample 69,When does the good rating reach the peak?,44362,June 2015,0.0,0.0,0.0,12,42.30769230769231
+Sample 70,In which year the gap between the positive and negative ratings is the largest?,2018,2014,0.331,0.467,0.0,20,7.6923076923076925
+Sample 71,What's the rightmost value of green graph?,64,64,0.969,0.068,1.0,4,57.692307692307686
+Sample 72,"Add two rightmost values of blue graph, multiply it by 3, what's the result?",390,The two rightmost values of the blue graph are 67 and 63. Adding them gives 130. Multiplying by 3 gives 390.,0.985,0.061,1.0,13,30.76923076923077
+Sample 73,What's the leftmost value of confidence graph?,41,41,0.215,0.408,0.0,17,11.538461538461538
+Sample 74,Is the sum of first three value of blue graph greater than 200?,No,"No, the sum of the first three values of the blue graph (47, 50, 48) is 145.",0.662,0.438,0.95,23,7.6923076923076925
+Sample 75,How many colored graph are used to represent the data?,2,Two colored graphs are used.,0.665,0.43,0.95,13,50.0
+Sample 76,What's the ratio(A:B) of largest value of green graph and smallest value of blue graph?,1.634722222,"The largest value of the green graph is 74, and the smallest value of the blue graph is 28. The ratio (A:B) is 74:28, which simplifies to 37:14.",0.138,0.271,0.0,15,23.076923076923077
+Sample 77,What is the rightmost value of red bar?,88,88,0.846,0.368,1.0,4,73.07692307692307
+Sample 78,What is the average of highest value of blue graph and rightmost value of red graph?,91.5,"The highest value of the blue graph is 95, and the rightmost value of the red graph is 88. The average is \((95 + 88) / 2 = 91.5\).",0.688,0.468,1.0,19,19.230769230769234
+Sample 79,What is the colour of Support Rep candidate in the chart?,Red,Red.,0.808,0.402,1.0,8,53.84615384615385
+Sample 80,What is the sum value of Support Dem candidate and Support Rep candidates in the year Oct 14?,131,128,0.458,0.423,0.6,24,7.6923076923076925
+Sample 81,What is the value of Support Rep candidate in the year Sept 2014?,0.52,52,0.508,0.436,0.65,13,38.46153846153847
+Sample 82,Is the value of voters who says they are more enthusiastic than usual about voting in Support Rep candidate more then Support Dem candidates?,Yes,"No, the value for those supporting the Dem candidate (67%) is higher than for those supporting the Rep candidate (59%) as of September 2018.",0.0,0.0,0.0,24,7.6923076923076925
+Sample 83,What's the blue graph represent?,NET Excellent/ good,"The blue graph represents the percentage of U.S. Catholics who say Pope Francis is doing an ""excellent/good"" job addressing the sex abuse scandal in the Catholic Church.",0.773,0.262,0.8,7,65.38461538461539
+Sample 84,Is the product of two smallest value of orange graph greater than 1000?,Yes,"No, the product of the two smallest values of the orange graph (34 and 46) is 1564, which is greater than 1000.",0.038,0.196,0.0,22,11.538461538461538
+Sample 85,Is the color of Yes graph green?,Yes,"Yes, the color of the ""Yes"" graph is green.",0.7,0.33,0.7,9,46.15384615384615
+Sample 86,Is the difference between blue and green graph in 2008 the maxiumum among years?,No,"Yes, the difference between the blue and green graphs in 2008 is the maximum among the years shown.",0.185,0.348,0.0,19,23.076923076923077
+Sample 87,What's the color of graph whose value is 40 in 2017?,Red,Red.,0.846,0.368,1.0,5,84.61538461538461
+Sample 88,What's the sum of all the values below 20 in red graph?,34,The sum of all the values below 20 in the red graph is 16 + 18 = 34.,0.6,0.486,0.95,20,11.538461538461538
+Sample 89,What's the color of graph whose rightmost value is 19?,Green,Blue.,0.038,0.196,0.0,8,57.692307692307686
+Sample 90,Is the sum of two leftmost value of blue graph greater than 90?,No,"No, the sum is not greater than 90.",0.758,0.392,1.0,24,7.6923076923076925
+Sample 91,What's the color of the graph whose lowest value is 31?,Blue,Blue.,0.877,0.325,1.0,6,57.692307692307686
+Sample 92,In which time period the difference between blue and orange graph minimum?,Jan 2018,January 2018.,0.646,0.481,1.0,13,38.46153846153847
+Sample 93,What's the highest value of blue graph?,0.88,The highest value of the blue graph is 88.,0.456,0.404,0.65,6,42.30769230769231
+Sample 94,Is the average of highest and lowest value of green bar greater than 80?,No,"No, the average of the highest (72) and lowest (39) values of the green bar is 55.5, which is not greater than 80.",0.846,0.337,1.0,22,7.6923076923076925
+Sample 95,What's the color of graph whose rightmost value is 83?,Green,Olive green.,0.708,0.407,0.9,13,23.076923076923077
+Sample 96,Is ratio of peak value of green and blue graph 84:83?,Yes,"Yes, the peak value ratio of the green graph (84) to the blue graph (83) is 84:83.",0.673,0.338,0.7,21,7.6923076923076925
+Sample 97,Does the blue line has maximum value of 88%?,Yes,"Yes, the blue line has a maximum value of 88%.",0.712,0.227,0.7,6,73.07692307692307
+Sample 98,Is the sum of two smallest value of blue graph greater than smallest value of green graph?,Yes,"Yes, the sum of the two smallest values of the blue graph (22 and 25) is 47, which is greater than the smallest value of the green graph (39).",0.796,0.4,1.0,17,23.076923076923077
+Sample 99,In which year the value of green graph is lowest?,2014,The value of the green graph is lowest in 2018.,0.0,0.0,0.0,10,42.30769230769231

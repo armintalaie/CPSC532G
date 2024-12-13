@@ -1,0 +1,21 @@
+Variation,Total_Samples,Correct_Predictions,Success_Rate
+Decreased Contrast,108,73,0.6759
+Increased Contrast,108,72,0.6667
+Vertically Stretched,108,71,0.6574
+Horizontally Stretched,108,70,0.6481
+Squeezed Vertically,108,69,0.6389
+Decreased Brightness,108,69,0.6389
+Decreased Sharpness,108,69,0.6389
+Squeezed Horizontally,108,67,0.6204
+Padded,108,63,0.5833
+Decreased Saturation,108,62,0.5741
+Increased Sharpness,108,62,0.5741
+Selective Blur,108,61,0.5648
+Baseline,108,61,0.5648
+Increased Saturation,108,61,0.5648
+Dominant Colors,108,60,0.5556
+Adaptive Threshold,108,59,0.5463
+Black and White,108,59,0.5463
+Quantized Colors,108,53,0.4907
+Increased Brightness,108,50,0.463
+Highlighted Intersections,108,47,0.4352
